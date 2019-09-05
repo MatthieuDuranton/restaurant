@@ -1,0 +1,40 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+  font-size: 70px;
+  border-radius: 0,3em;
+  background-color: orange;
+  height: 80px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+header .row {
+  bottom: 0px;
+}
+
+.jumbotron {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  background-image: url(../pictures/panorama.jpg);
+  background-size: cover;
+}
+
+.jumbotron .h1 {
+  font-size: 4em;
+  font-style: bold;
+}
+
+.jumbotron .lead {
+  font-size: 2em;
+  font-style: bold;
+}
+/*# sourceMappingURL=style.css.map */
