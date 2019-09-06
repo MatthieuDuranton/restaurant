@@ -1,0 +1,55 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+  font-size: 70px;
+  border-radius: 0,3em;
+  background-image: url("../pictures/gouttes.jpg");
+  background-size: contain;
+}
+
+header header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+  font-size: 70px;
+  border-radius: 0,3em;
+  background-image: url("../pictures/gouttes.jpg");
+  background-size: contain;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header .jumbotron {
+  position: relative;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("../pictures/panorama.jpg");
+  background-size: cover;
+}
+
+header .card-body {
+  background-color: orange;
+}
+
+.jumbotron {
+  position: relative;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("../pictures/panorama.jpg");
+  background-size: cover;
+}
+
+.card-body {
+  background-color: orange;
+}
+/*# sourceMappingURL=style-menu.css.map */
