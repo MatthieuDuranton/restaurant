@@ -11,3 +11,4 @@ Image de la truffade: Wikipedia; https://www.google.com/url?sa=i&source=images&c
 Image façade: pixabay; https://fr.wikipedia.org/wiki/Fichier:Fa%C3%A7ade_-_Restaurant_Drouant_-_Paris.jpg
 Logo Michelin: https://commons.wikimedia.org/wiki/File:Restaurant_Le_9e_art_(Lyon)_-_deux_%C3%A9toiles_au_Michelin.jpg
 Chef: https://fr.wikipedia.org/wiki/Fichier:Photo_david_chef.jpg
+carte : pixabay, https://pixabay.com/fr/illustrations/carte-gps-emplacement-navigation-4348394/
