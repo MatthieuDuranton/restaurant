@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="L'auvergne-menu" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>viewport</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    </head>
+
+    <body>
+        <div class="container bg-dark">
+
+            <header>                      
+                <div class="row fixed-header">
+                    <div class="btn-group sm-2 btn-block" role="group" aria-label="First group">
+                        <a href="https://matthieuduranton.github.io/restaurant/" type="button" class="col-sm btn btn-warning btn-sm font-weight-bold text-secondary">Bienvenue</a>
+                        <a href="index-menu.html" type="button" class="col-sm btn btn-warning btn-sm font-weight-bold text-secondary">Carte</a>
+                        <a href="https://fr.wikipedia.org/wiki/Auvergne" type="button" class="col-sm btn btn-warning btn-sm font-weight-bold text-secondary">Gallerie</a>
+                        <a href="index-resto.html" type="button" class="col-sm btn btn-warning btn-sm font-weight-bold text-secondary">Concept</a>
+                        <a href="index-contact.html" type="button" class="col-sm btn btn-warning btn-sm font-weight-bold text-secondary">Contacts</a>
+                    </div>
+                </div>  
+            </header>
+
+            <div class="jumbotron mt-2">
+                <h1 class="display-4 font-italic font-weight-bold text-white">L'Auvergne...</h1>
+                <p class="lead font-weight-bold text-sm-right text-white">...Notre concept</p>
+            </div>
+
+<section class="mb-4">
+
+        <h2 class="h1-responsive font-weight-bold text-center my-4 text-white">Nous contacter :</h2>
+
+        <p class="text-center w-responsive mx-auto mb-5 text-white">Nous nous engageons à vous répondre dans un délais n'excédant pas les 48h. Pour les réservations, nous vous recontacterons dans les 2h au plus tard.</p>
+    
+        <div class="row text-white">
+    
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Votre nom</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">votre adresse mail</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Votre message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                </form>
+    
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Av des Pespeliers, 38. 1348 Louvain-La-Neuve. Belgique</p>
+                    </li>
+    
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+32 497 456 123</p>
+                    </li>
+    
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>lauvergne@manger.be</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+        </div>
+    
+    </section>
+    <!--Section: Contact v.2-->
+    
+
+
+            <footer class="row mt-5">           
+                    <div class="col-sm-4 border border-dark text-center rounded text-dark font-weight-bold">
+                        <div class="row">
+                            <div class="lead col-sm-12 text-white">Adresse :</div>
+                            <div class="lead col-sm-12 text-white">Avenue des Pespeliers, 38</div>
+                            <div class="lead col-sm-12 text-white">1360, Louvain-La-Neuve</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 border border-dark text-center rounded text-dark font-weight-bold">
+                        <div class="row">
+                            <div class="lead col-sm-12 text-white">Contactez-nous :</div>
+                            <div class="col-sm-12 text-white">+32 497 456 123</div>
+                            <div class="col-sm-12 text-white">lauvergne@manger.be</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 border border-dark text-center rounded text-dark font-weight-bold">
+                        <div class="row">
+                            <div class="lead col-sm-12 text-white">Rejoignez-nous sur:</div>
+                            <div class="col-sm-4 display-4"><a href="https://fr.wikipedia.org/wiki/Auvergne"><i class="fab fa-twitter-square twitter"></i></a></div>
+                            <div class="col-sm-4 display-4"><a href="https://fr.wikipedia.org/wiki/Auvergne"><i class="fab fa-instagram"></i></a></div>
+                            <div class="col-sm-4 display-4"><a href="https://fr.wikipedia.org/wiki/Auvergne"><i class="fab fa-facebook-square"></i></a></div>
+                        </div>
+                    </div>              
+            </footer>
+        </div>
+
+        
+    
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ca40c2b93d.js"></script>
+    </body>
+</html>
