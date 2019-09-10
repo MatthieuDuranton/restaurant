@@ -1,3 +1,8 @@
+body {
+  background-image: url("../pictures/ecran.jpg");
+  background-size: 100%;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,7 +18,7 @@ header {
 
 .jumbotron {
   position: relative;
-  width: 90%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   background-image: url("../pictures/panorama.jpg");
@@ -35,7 +40,9 @@ header {
   position: absolute;
 }
 
-.border {
-  border-width: 5px solid orange;
+.btn {
+  background-color: transparent !important;
+  -webkit-transition: none;
+  transition: none;
 }
 /*# sourceMappingURL=style.css.map */
