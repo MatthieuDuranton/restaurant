@@ -6,9 +6,6 @@
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 15px;
@@ -42,10 +39,16 @@ header {
   position: absolute;
 }
 
-.header #1 {
+.btn {
   background-color: transparent !important;
-  text-justify: left;
-  font-size: 2em;
+  text-justify: center;
+  font-size: 0.5em;
+  vertical-align: middle;
+  color: white;
+  font-size: bold;
+  font-style: italic;
+  border: orangered;
+  border-width: 2px;
 }
 
 .img:hover {
