@@ -1,7 +1,7 @@
 @media only screen and (min-device-width:480px) {
     body { 
       background-image: url("../pictures/ecran.jpg");
-      background-size: 100%;   
+      background-size: 150%;   
     } 
 }
 header {
@@ -37,7 +37,12 @@ header {
     position:absolute;
     }
 
-.btn {
+.header #1 {
   background-color: transparent !important;
-  transition: none;
+  text-justify: left;
+  font-size: 2em;
+}
+
+.img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
