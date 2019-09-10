@@ -1,6 +1,8 @@
-body {
-  background-image: url("../pictures/ecran.jpg");
-  background-size: 100%;
+@media only screen and (min-device-width: 480px) {
+  body {
+    background-image: url("../pictures/ecran.jpg");
+    background-size: 100%;
+  }
 }
 
 header {
