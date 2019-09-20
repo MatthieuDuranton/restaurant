@@ -10,8 +10,8 @@ header {
     padding: 15px;
     font-size: 70px;
     border-radius: 0,3em;
-    background-image: url("../pictures/gouttes.jpg");
     background-size: contain;
+    color: white;
   }
 
   .jumbotron {
@@ -52,3 +52,30 @@ header {
 .img:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+.fa-1x {
+  font-size: 1rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: white;
+  }
+  .nav-link{
+    color: white;
+  }
+  @media only screen and (max-width: 700px) {
+    #bigscreen{
+      display:none;
+    }
+    #navbar{
+      display: block;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    #navbar{
+      display:none;
+    }
+  }
+  
