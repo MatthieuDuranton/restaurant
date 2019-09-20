@@ -15,10 +15,10 @@
             <header>                      
                 <div class="row" id="bigscreen">                   
                     <a href="index.html" class="btn btn-lg border-warning col-12 col-md-2 offset-md-1">Accueil</a>
-                    <a href="index-menu.html" class="btn btn-lg border-warning col-6 col-md-2">Carte</a>
-                    <a href="index-photo.html" class="btn btn-lg border-warning col-6 col-md-2">Cadre</a>
-                    <a href="index-resto.html" class="btn btn-lg border-warning col-6 col-md-2">Concept</a>
-                    <a href="index-contact.html" class="btn btn-lg border-warning col-6 col-md-2">Contacts</a>                 
+                    <a href="menu.html" class="btn btn-lg border-warning col-6 col-md-2">Carte</a>
+                    <a href="photo.html" class="btn btn-lg border-warning col-6 col-md-2">Cadre</a>
+                    <a href="resto.html" class="btn btn-lg border-warning col-6 col-md-2">Concept</a>
+                    <a href="contact.html" class="btn btn-lg border-warning col-6 col-md-2">Contacts</a>                 
                 </div>
                 <nav class="navbar navbar-light light-blue lighten-4 col-12" id="navbar">
 
@@ -39,16 +39,16 @@
                                 <a class="nav-link text-white lead" href="index.html">Accueil </a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link text-white lead" href="index-menu.html">Carte</a>
+                                <a class="nav-link text-white lead" href="menu.html">Carte</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link text-white lead" href="index-photo.html">Cadre</a>
+                                <a class="nav-link text-white lead" href="photo.html">Cadre</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link text-white lead" href="index-resto.html">Concept</a>
+                                <a class="nav-link text-white lead" href="resto.html">Concept</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link text-white lead" href="index-contact.html">Contacts</a>
+                                <a class="nav-link text-white lead" href="contact.html">Contacts</a>
                                 </li>
                             </ul>
                         </div>
@@ -57,90 +57,32 @@
 
             <div class="jumbotron mt-2">
                 <h1 class="display-4 font-italic font-weight-bold text-white">L'Auvergne...</h1>
-                <p class="lead font-weight-bold text-sm-right text-white">...Notre concept</p>
+                <p class="lead font-weight-bold text-sm-right text-white">...La Gallerie</p>
             </div>
+            
+            <div class="mt-2 col-sm-12 text-center bg-secondary text-white"><h1>Nos restaurants : Votre voyage</h1></div>
+            <div class="text-sm-center bg-secondary text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut itaque unde veritatis dolor, sit tenetur consequuntur consequatur non dolorum labore porro quisquam, cupiditate vero laborum repellendus sequi in. Assumenda, quae!</div>
+            <div class="text-sm-center bg-secondary text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut itaque unde veritatis dolor, sit tenetur consequuntur consequatur non dolorum labore porro quisquam, cupiditate vero laborum repellendus sequi in. Assumenda, quae!</div>
 
-            <section class="mb-4">
-
-                <h2 class="h1-responsive font-weight-bold text-center my-4 text-white">Nous contacter :</h2>
-
-                <p class="text-center w-responsive mx-auto mb-5 text-white">Nous nous engageons à vous répondre dans un délais n'excédant pas les 48h. Pour les réservations, nous vous recontacterons dans les 2h au plus tard.</p>
+            <div class="row mt-4"> 
+                <img src="assets/pictures/auv1.jpg" alt="paysage" class="col-sm-4 img-responsive rounded justify-content-center mt-2">
+                <img src="assets/pictures/resto1.jpg" alt="salle de restaurant" class="col-sm-4 img-responsive rounded justify-content-center mt-2">
+                <img src="assets/pictures/auv2.jpg" alt="paysage" class="col-sm-4 img-responsive rounded justify-content-center mt-2">
+                <p class="col-sm-4 text-center text-white">Le Sancy</p>
+                <p class="col-sm-4 text-center text-white">Salle festive</p>
+                <p class="col-sm-4 text-center text-white">Les crocs de Thuilière et Sanadoire</p>
+            </div>
             
-                <div class="row text-white">
-            
-                    <div class="col-md-9 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-            
-                            <div class="row">
-            
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">Votre nom</label>
-                                    </div>
-                                </div>
-            
-                                <div class="col-sm-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">votre adresse mail</label>
-                                    </div>
-                                </div>
-            
-                            </div>
-            
-                            <div class="col-sm-6">
-                                    <form class="form-inline">
-                                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">objet de votre message</label>
-                                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                                            <option selected>Objets...</option>
-                                            <option value="1">Réservation</option>
-                                            <option value="2">Allergies</option>
-                                            <option value="3">Régimes et préférences alimentaires</option>
-                                            <option value="4">Suggestions et plaintes</option>
-                                        </select>
-                            </div>
-            
-                            <div class="row">
-            
-                                <div class="col-md-12">
-            
-                                    <div class="md-form">
-                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                        <label for="message">Votre message</label>
-                                    </div>
-            
-                                </div>
-                            </div>
-            
-                        </form>
-            
-                        <div class="text-center text-md-left">
-                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-                        </div>
-                        <div class="status"></div>
-                    </div>
-            
-                    <div class="col-md-3 text-center">
-                        <ul class="list-unstyled mb-0">
-                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                <p>Av des Pespeliers, 38. 1348 LLN</p>
-                            </li>
-            
-                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                                <p>+32 497 456 123</p>
-                            </li>
-            
-                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                <p>lauvergne@manger.be</p>
-                            </li>
-                        </ul>
-                    </div>
-            
-                </div>
-            
-            </section>
-        
+            <nav aria-label="..." >
+                <ul class="pagination pagination-lg justify-content-center mt-4">
+                    <li class="page-item disabled">
+                    <a class="page-link bg-secondary text-white" href="index-photo.html" tabindex="-1">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link bg-secondary text-white" href="photo2.html">2</a></li>
+                    <li class="page-item"><a class="page-link bg-secondary text-white" href="photo3.html">3</a></li>
+                </ul>
+            </nav>
+    
 
 
             <footer class="row mt-5">           
