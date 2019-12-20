@@ -1,21 +1,22 @@
-# Exercice Restaurant
+# Restaurant web site
+https://matthieuduranton.github.io/restaurant/
 
-### Objectif:
-* créer une page web pour un resto avec bootstrap et SASS
-* Utiliser des photos libres de droits
-* Rendre le site dynamique, s'adaptant aux différentes tailles d'écrans
-* Rendre invisible l'utilisation de Bootstrap
+
+### Goal:
+* Make use of bootstrap et SASS to create a responsive restaurant website
+* Use of free of rights pictures
+* Make sure the use of bootstrap is not too easy to notice
 
 ### Contexte :
-* semaine 4 de la formation
-* format du site imposé (pages, thèmes des pages...)
+* fourth week of the training
+* Website structure was imposed on us
+* Work done by myself
 
 ### Langages et framework :
 * HTML
-* SASS et CSS
+* SASS & CSS
 * Bootstrap
 
-# https://matthieuduranton.github.io/restaurant/
 
 ### Credits:
 * Icons: Fontawsome; https://fontawesome.com/
